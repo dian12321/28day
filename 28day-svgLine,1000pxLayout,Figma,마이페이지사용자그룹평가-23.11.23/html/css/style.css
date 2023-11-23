@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* 리셋 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 레이아웃 */
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#wrap header {
+    width: 200px;
+    height: 650px;
+    background-color: #999;
+}
+
+#wrap header h1.logo {
+    width: 200px;
+    height: 100px;
+    background-color: #1f1414;
+}
+
+#wrap header nav.menu {
+    width: 200px;
+    height: 550px;
+    background-color: #7e5050;
+}
+
+
+
+#wrap main {
+    width: 800px;
+    height: 650px;
+    background-color: #b03f3f;
+}
+
+#wrap main .slide {
+    width: 800px;
+    height: 350px;
+    background-color: rgb(108, 105, 27);
+}
+
+#wrap main .contents {
+    display: flex;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(49, 49, 27);
+}
+
+
+#wrap main .contents .ng {
+    width: 267px;
+    height: 200px;
+    background-color: #000;
+}
+
+#wrap main .contents .banner1 {
+    width: 266px;
+    height: 200px;
+    background-color: rgb(40, 69, 130);
+}
+
+#wrap main .contents .banner2 {
+    width: 267px;
+    height: 200px;
+    background-color: rgb(58, 130, 40);
+}
+
+#wrap main footer {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    background-color:pink;
+
+}
+
+#wrap main footer .blogo {
+    width: 150px;
+    height: 100px;
+    background-color: #999;
+}
+#wrap main footer .mc {
+    width: 650px;
+    height: 100px;
+    background-color: rgb(19, 19, 60)
+}
+#wrap main footer .mc .bmenu {
+    width: 650px;
+    height: 50px;
+    background-color: blue
+}
+#wrap main footer .mc .copyright {
+    width: 650px;
+    height: 50px;
+    background-color: rgb(57, 57, 81)
+}
